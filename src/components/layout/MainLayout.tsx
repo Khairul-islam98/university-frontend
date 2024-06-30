@@ -1,5 +1,6 @@
 import React from "react";
 import { Layout, Menu } from "antd";
+import { adminSidebarItems } from "../../routes/admin.routes";
 const { Header, Content, Footer, Sider } = Layout;
 
 const MainLayout = () => {
@@ -31,7 +32,7 @@ const MainLayout = () => {
           theme="dark"
           mode="inline"
           defaultSelectedKeys={["4"]}
-          //   items={items}
+            items={adminSidebarItems}
         />
       </Sider>
       <Layout>
