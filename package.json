@@ -25,8 +25,11 @@
   },
   "devDependencies": {
     "@ant-design/icons": "^5.3.7",
+    "@types/jwt-decode": "^3.1.0",
+    "@types/node": "^20.14.10",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "@types/redux-persist": "^4.3.1",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
     "@vitejs/plugin-react": "^4.3.1",
